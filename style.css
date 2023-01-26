@@ -1,0 +1,198 @@
+:root{
+    --background: #f5f3ef;
+    --accent: #febd2f;
+    --card: #ffffff;
+    --text-primary: #000000;
+    --text-secondary: #646464;
+    --Outline: #DCDCDC;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "banner banner banner"
+    "content-cards content-cards content-cards"
+    "content-cards content-cards content-cards"
+    "footer footer footer";
+    background-color: var(--background);
+}
+
+.header{
+    grid-area: header;
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: 40px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+#get-started{
+    background-color: black;
+    color: #f5f3ef;
+    border: transparent;
+    border-radius: 100px;
+    padding: 10px;
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+    margin: 40px;
+}
+
+.banner{
+    margin: 40px;
+    grid-area: banner;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.banner-message h1{
+    font-size: 64px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 500;
+}
+
+.banner-message p{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.banner-img img{
+    width: 600px;
+    height: 440px;
+}
+
+.content-cards{
+    grid-area: content-cards;
+    grid-column: span 3;
+    background-color: var(--background);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 325px 325px auto;
+    gap: 40px;
+    margin: 40px;
+}
+
+#card-info{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+#card-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text-primary);
+}
+
+#card-button{
+    background-color: var(--card);
+    width: 40%;
+    padding: 10px;
+    color: var(--text-primary);
+    border-radius: 100px;
+    font-size: 18px;
+    border: solid 1px var(--Outline)
+}
+
+.explore{
+    background-color: var(--accent);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.explore h2{
+    font-family: 'Roboto Serif', serif;
+    font-size: 40px;
+    
+}
+
+.chef-skills{
+    background-color: var(--card);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+
+.cooking-essentials{
+    background-color: var(--card);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+
+.nutrition{
+    background-color: var(--card);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.plant{
+    background-color: var(--card);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.teen{
+    background-color: var(--card);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+#card-button{
+    color: var(--text-primary);
+}
+
+.footer{
+    grid-area: footer;
+    background-color: var(--accent);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
