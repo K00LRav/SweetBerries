@@ -62,9 +62,7 @@
     background-color: var(--background);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    
-    
+    justify-content: space-evenly;   
 }
 
 .banner-message h1{
@@ -138,7 +136,22 @@
     border-radius: 40px;
     justify-content: space-around;
     padding-left: 30px;
+    padding-right: 30px;
 }
+
+.card-info h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto Serif', serif;
+    color: var(--text-primary);
+}
+
+.card-info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
 .chef-skills-card{
     background-color: var(--card);
     border-radius: 40px;
@@ -169,6 +182,13 @@
     color: var(--text-primary);
 }
 
+.card-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -40px;
+    margin-right: 40px;
+    }
+
 .footer{
     grid-area: footer;
     background-color: var(--accent);
@@ -177,12 +197,4 @@
     justify-content: center;
     align-items: center;
     height: 100px;
-}
-
-
-.card-icon{
-display: flex;
-flex-direction: row-reverse;
-margin-top: -40px;
-margin-right: 40px;
 }
