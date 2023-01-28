@@ -86,12 +86,11 @@
 
 .content-cards{
     grid-area: content-cards;
-    grid-column: span 3;
     background-color: var(--background);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 325px 325px auto;
-    gap: 40px;
+    gap: 80px;
     margin: 40px;
 }
 
@@ -119,69 +118,51 @@
 
 .explore{
     background-color: var(--accent);
+    justify-content: center;
     border-radius: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding: 40px;
 
 }
 .explore h2{
     font-family: 'Roboto Serif', serif;
     font-size: 40px;
-    
 }
 
-.chef-skills{
+.card-info{
     background-color: var(--card);
-    border-radius: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 40px;
+    height: 325px;
+    border-radius: 40px;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+.chef-skills-card{
+    background-color: var(--card);
+    border-radius: 40px;
 }
 
-
-.cooking-essentials{
+.cooking-essentials-card{
     background-color: var(--card);
     border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 40px;
 }
 
 
-.nutrition{
+.nutrition-card{
     background-color: var(--card);
     border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 40px;
 }
 
-.plant{
+.plant-card{
     background-color: var(--card);
     border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 40px;
 }
 
-.teen{
+.teen-card{
     background-color: var(--card);
     border-radius: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding: 40px;
 }
 
 #card-button{
@@ -199,8 +180,9 @@
 }
 
 
-#content-card-icon{
-    position: relative;
-    left: 70%;
-    bottom: 25%;
+.card-icon{
+display: flex;
+flex-direction: row-reverse;
+margin-top: -40px;
+margin-right: 40px;
 }
