@@ -123,6 +123,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px;
 
 }
 .explore h2{
@@ -195,4 +196,10 @@
     justify-content: center;
     align-items: center;
     height: 100px;
+}
+
+#icon{
+    position: relative;
+    left: 70%;
+    bottom: 25%;
 }
