@@ -1,3 +1,16 @@
+:root{
+    --background: #f5f3ef;
+    --accent: #febd2f;
+    --card: #ffffff;
+    --text-primary: #000000;
+    --text-secondary: #646464;
+    --Outline: #DCDCDC;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
