@@ -19,16 +19,33 @@
     }
 
     .header{
-        justify-content: center;
+        align-items: baseline;
     }
 
     .logo{
         margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     #get-started{
         display: none;
     }
+    .hamburgermenu{
+        padding-right: 20px;
+    }
+    .menu{
+        display: block;
+        align-items: baseline;
+    }
+    .menu{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+    }
+    
 
     .banner-img img{
         width: 320px;
