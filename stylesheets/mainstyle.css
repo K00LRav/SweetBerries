@@ -82,7 +82,13 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 325px auto;
     }
-    
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        width: 22%;
+    }
+
     .banner{
         flex-direction: column;
     }
