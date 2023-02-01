@@ -1,17 +1,3 @@
-:root{
-    --background: #f5f3ef;
-    --accent: #febd2f;
-    --card: #ffffff;
-    --text-primary: #000000;
-    --text-secondary: #646464;
-    --Outline: #DCDCDC;
-}
-*{
-    margin: 0px;
-    padding: 0px;
-  }
-
-
   @media screen and (max-width: 468px){
 
     .nav-bar{
