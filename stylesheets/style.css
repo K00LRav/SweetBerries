@@ -105,10 +105,11 @@
     margin: 40px;
 }
 
-#card-info{
+#card-details{
     font-size: 18px;
     font-weight: 400;
     color: var(--text-secondary);
+    font-family: 'Roboto Serif', serif;
 }
 
 #card-title{
@@ -150,19 +151,6 @@
     justify-content: space-around;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-.card-info h3{
-    font-size: 24px;
-    font-weight: 700;
-    font-family: 'Roboto Serif', serif;
-    color: var(--text-primary);
-}
-
-.card-info p{
-    font-size: 18px;
-    font-weight: 400;
-    color: var(--text-secondary);
 }
 
 .chef-skills-card{
