@@ -13,24 +13,25 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        margin-left: 30px;
     }
 
     #get-started{
         display: none;
     }
 
-    .hamburgermenu{
+    .hamburger-menu{
         display: block;
         padding-right: 20px;
+        height: 44px;
     }
 
-    .menu{
+    #hamburger-menu1{
         display: block;
         align-items: baseline;
-    }
-    .menu{
-        width: 35px;
-        height: 5px;
+        justify-content: center;
+        width: 30px;
+        height: 3px;
         background-color: black;
         margin: 6px 0;
     }

@@ -30,11 +30,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.hamburgermenu{
+
+.hamburger-menu{
     display: none;
 }
 
-.menu{
+#hamburger-menu1{
     width: 35px;
     height: 5px;
     background-color: black;
