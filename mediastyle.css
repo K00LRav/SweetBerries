@@ -20,6 +20,7 @@
     }
 
     .hamburgermenu{
+        display: block;
         padding-right: 20px;
     }
 
