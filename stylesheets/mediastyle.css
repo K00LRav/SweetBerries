@@ -37,7 +37,7 @@
     }
     
 
-    .banner-img img{
+    #cooking-img{
         width: 320px;
         height: 220px;
     }
@@ -84,5 +84,10 @@
     .banner-message{
         text-align: center;
         padding-bottom: 40px;
+    }
+
+    .banner-img img{
+        height: 360px;
+        width: 688px;
     }
 }
