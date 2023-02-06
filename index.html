@@ -1,3 +1,4 @@
+<!-- Failed HTML validator test -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +16,7 @@
 <body>
     <div class="main-container">
         <div class="grid-container">
+            <!-- You haven't used HTML semantic elements within your code, such as header, nav, footer, etc. -->
         <div class="header">
             <div class="nav-bar">
                 <a href="#">Courses</a>
@@ -24,6 +26,7 @@
                 <img src="./assets/sweetberrieslogo.svg" alt="logo">
             </div>
             <div class="hamburger-menu">
+                <!-- You can't use id more than once. You should change this into a class. -->
                 <div id="hamburger-menu1"></div>
                 <div id="hamburger-menu1"></div>
                 <div id="hamburger-menu1"></div>
@@ -54,6 +57,9 @@
             <div class="chef-skills-card">
                 <div class="card-icon"><img src="./assets/knifeicon.svg" alt=""></div>
                 <div class="card-info">
+
+                <!-- You can't use id more than once. You should change this into a class.
+                This is bad practice. -->
                 <h3 id="card-title">Chef Skills</h3>
                 <p id="card-details">Master the skills and techniques that will take your culinary abilities to the next level and help you excel in the food industy.</p>
                 <button id="card-button">Get Started</button>

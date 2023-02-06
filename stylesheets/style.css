@@ -1,3 +1,4 @@
+/* Awesome work on using CSS variables! */
 :root{
     --background: #f5f3ef;
     --accent: #febd2f;
@@ -11,6 +12,7 @@
     padding: 0px;
   }
 
+  /* Great job on using grid-template-areas! It was a requirement in the rubric! */
 .grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -49,6 +51,7 @@
     margin: 40px;
 }
 
+/* You have added “Robot Serif” font but haven’t added the other font in the Figma file. */
 .nav-bar a{
     text-decoration: none;
     font-family: 'Roboto Serif', serif;
@@ -90,6 +93,9 @@
     color: var(--text-secondary);
 }
 
+/* Always try to stay away from setting any heights, usually it results in problems when it comes to making the webpage responsive */
+/* Always try your best to stay away from using pixels (px) and use more responsive units such as percentages (%) instead.
+This will allow you to make your webpage more responsive a lot faster. */
 .banner-img img{
     width: 600px;
     height: 440px;
@@ -182,6 +188,7 @@
     color: var(--text-primary);
 }
 
+/* You have achieved getting the icon to appear a little out of the card but you haven’t used relative and absolute positioning which is a requirement in the rubric. */
 .card-icon{
     display: flex;
     flex-direction: row-reverse;
@@ -201,4 +208,4 @@
 
 
 
-
+/* Overall, beautiful work! You did amazing! You should be proud of yourself!🙌 */
