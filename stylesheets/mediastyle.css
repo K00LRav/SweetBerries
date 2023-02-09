@@ -26,7 +26,7 @@
         height: 44px;
     }
 
-    #hamburger-menu1{
+    .hamburger-menu1{
         display: block;
         align-items: baseline;
         justify-content: center;
